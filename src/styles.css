@@ -9,8 +9,15 @@
     --body-text-color:#596392;
     --navbar-footer-color:#F9F9F9;
 }
+
 body{
     font-family: "Fira Code", serif;
     font-size: 12px;
     color: var(--body-text-color);
+}
+.site-logo{
+    padding:5px 20px;
+    border-radius: 20px;
+    background-color:var(--secondary-color) ;
+    color: var(--primary-color);
 }
