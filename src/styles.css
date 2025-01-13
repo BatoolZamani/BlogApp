@@ -11,7 +11,7 @@
 }
 
 body{
-    font-family: "Fira Code", serif;
+    /* font-family: "Fira Code", serif; */
     font-size: 12px;
     color: var(--body-text-color);
 }
@@ -30,4 +30,18 @@ body{
 }
 .bg-theme{
     background-color: var(--primary-color);
+}
+ input[type=text],input[type=email]{
+    height: 60px;
+    padding-left: 20px;
+    font-size: 13px;
+    width: 100%;
+}
+.btn-theme{
+    height: 58px;
+    border: none;
+    font-size: 13px;
+    background-color: var(--primary-color);
+    color: white;
+   
 }
